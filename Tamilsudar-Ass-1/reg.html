@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<body bgcolor="pink">
+<h3 align="center" color="pink">Registration form</h3>
+<center>
+<form name="regform" method="post">
+<table cellspacing="15">
+<tr><td>NAME</td><td><input 	type="text" 	name="name" size="25"></td></tr>
+<tr><td>PASSWORD</td><td><input 	type="password" name="pass" size="25">
+</td></tr>
+<tr><td>PHONE NUMBER</td><td><input type="text" maxLength="10" name="phno" 
+size="25"></td></tr>
+<tr><td>E-MAIL</td><td><input 	type="text" 	name="emai" size="25"></td></tr>
+<tr><td>GENDER</td><td>male 	<input type="radio" 
+name="gender" value="male" checked="checked"> female <input type="radio" name="gender" value="female"></td></tr>
+<tr><td>DATE 	OF 	BIRTH</td><td>day<select name="day">
+<optionvalue="1">1</option><option 	value="2">2</option>
+</select>&nbsp; month&nbsp;&nbsp; <select name="month"><option 
+value="jan">jan</option><option 	value="feb">feb</option>
+</select>&nbsp;&nbsp; 
+year<select 	name="year"><option value="1990">1990</option>
+<option value="1991">1991</option></select></td></tr>
+<tr><td>LANGUAGES KNOWN</td><td>Tamil&nbsp;&nbsp; 
+<input type="checkbox" name="tamil”	value="tamil"><br>ENGLISH 
+<input type="checkbox" name="english" 	value="english"><br>
+HINDI&nbsp; &nbsp; &nbsp;&nbsp; 	
+<input type="checkbox" name="hindi" value="hindi"></td>
+</tr>
+<tr><td>ADDRESS</td><td><textarea 	rows="3" 	cols="25" name="address" wrap="soft"></textarea></td>
+</tr>
+</table>
+<br><br>
+<input type="submit" align="center" value="send">&nbsp;<input type="reset" align="center" value="cancel">
+</form>
+</center>
+</body>
+</html>
