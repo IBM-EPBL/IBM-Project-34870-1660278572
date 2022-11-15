@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>Assignment 2</h1>
+<label for="email">Enter your email:</label><br>
+
+<input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required><br>
+
+<label for="password">Enter your password:</label><br>
+
+<input type="password" id="password"
+       pattern=".+@globex\.com" size="30" required>
+
+
+<form action="/action_page.php">
+  <p>Text Area:</p>
+  <input type="radio" id="10-20" name="fav_language" value="10-20">
+  <label for="10-20">10-20</label><br>
+  <input type="radio" id="30-40" name="fav_language" value="30-40">
+  <label for="30-40">30-40</label><br>
+  <input type="radio" id="50-60" name="fav_language" value="50-60">
+  <label for="50-60">50-60</label>
+
+  <br>  
+
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
